@@ -1,3 +1,67 @@
+# ========================
+# 🐍 Python
+# ========================
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.egg-info/
+dist/
+build/
+.Python
+
+# ========================
+# 🔬 Jupyter Notebook
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# 🌐 Entornos Virtuales
+# ========================
+.venv/
+.venv-tf/
+venv/
+ENV/
+
+# ========================
+# 📊 Datasets (Archivos grandes)
+# ========================
+mobs-yolo/
+Videos_prueba/
+*.mp4
+*.avi
+
+# ========================
+# 🤖 Modelos Entrenados
+# ========================
+models/trained/
+*.pt
+*.pth
 *.h5
-*.hdf5
 *.keras
+
+# Mantener estructura vacía
+!models/.gitkeep
+!models/pretrained/.gitkeep
+!models/trained/.gitkeep
+
+# ========================
+# 📈 Resultados
+# ========================
+runs/
+*_screenshots/
+confusion_matrix*.png
+results*.png
+
+# ========================
+# 🖼️ Temporales
+# ========================
+*.log
+.DS_Store
+Thumbs.db
+
+# ========================
+# 🔧 IDEs
+# ========================
+.vscode/
+.idea/

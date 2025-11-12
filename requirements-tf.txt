@@ -1,0 +1,30 @@
+# ========================
+# 🧠 Clasificación con CNN/Transfer Learning
+# ========================
+# Python 3.10.11 recomendado
+# Para usar este entorno:
+#   python -m venv .venv-tf
+#   .venv-tf\Scripts\activate
+#   pip install -r requirements-tf.txt
+
+# TensorFlow (Windows, CPU + GPU si tienes CUDA 11.x)
+tensorflow==2.10.0
+
+# IMPORTANTE: NumPy compatible con TF 2.10
+numpy==1.23.5
+
+# Computer Vision
+opencv-python==4.12.0.90
+Pillow==12.0.0
+
+# Data Science
+pandas==2.2.3
+matplotlib==3.9.2
+seaborn==0.13.2
+scipy==1.14.1
+
+# Scikit-learn
+scikit-learn==1.7.2
+
+# Jupyter
+ipykernel==6.29.5
